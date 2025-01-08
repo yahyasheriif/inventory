@@ -59,7 +59,7 @@ class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
     
-# InventoryChangeLogViewSet:
+# InventoryChangeLogViewSet
 #- serializer_class: Serializer for InventoryChangeLog objects.
 #- permission_classes: Allow only authenticated users to view change logs.
 class InventoryChangeLogViewSet(viewsets.ReadOnlyModelViewSet):
